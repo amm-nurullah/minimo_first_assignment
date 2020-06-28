@@ -1,0 +1,120 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262; 
+}
+/*Header Start*/
+header{
+	    padding: 25px 0;
+	/*border: 1px solid  black;*/
+}
+.container{
+	width:90%;
+	margin:0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	margin-top: 4px;
+	width: 13%;
+    float: left;
+    /*border: 1px solid red;*/
+   
+}
+.logo img{
+	width: 100%;
+}
+.manu{
+	width: 70%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.manu ul{
+	float: right;
+}
+.manu ul li{
+	float: left;
+    list-style: none;
+}
+.manu ul li a{
+	margin: 0 50px;
+    padding: 10px 0;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .3s;
+    border: 1px solid transparent;
+
+}
+.manu ul li a:hover{
+	border-bottom:1px solid #626262; 
+}
+
+.manu ul li:last-child a{
+	margin-right: 0;
+}
+
+/*Header End*/
+
+/*banner start*/
+.banner{
+
+}
+
+.bn_img{
+	width: 100%;
+}
+/*banner end*/
+
+/*newsletter start*/
+.newsletter{
+	margin-top: 40px;
+	padding: 50px 0;
+	background-color: #f0f0f0;
+}
+.container_2{
+	width: 60%;
+	margin: 0 auto;
+}
+.signup{
+	text-align: center;
+}
+.signup h1{
+	font-size: 30px;
+	margin-bottom: 82px;
+}
+.for_form{
+	width: 350px;
+	left: 0;
+	right: 0;
+    margin: 0 auto;
+    position: relative;
+}
+.for_form input{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    width: 300px;
+    font-size: 18px;
+    padding: 10px 50px 10px 10px;
+    outline: none;
+}
+.for_form button{
+	border: none;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+
+
+/*newsletter start*/
